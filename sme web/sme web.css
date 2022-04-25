@@ -1,0 +1,245 @@
+*{
+margin:0px ;
+padding:0px;
+box-sizing: border-box;}
+
+img{width: 430px;
+  height:160px;
+padding-left: 30px;
+z-index:-1;}
+
+.header {font-family: cursive;
+border-radius:3px;
+color: white;
+overflow: hidden;
+background-color:lightgreen;
+padding: 20px 20px;
+margin: 0px ;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+
+.header a {
+  float: left;
+  position: relative;
+  color: black;
+  text-align: center;
+  padding: 10px 9px 10px 15px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 0px;
+  border-radius: 4px;}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+
+
+/* Change the background color on mouse-over */
+
+/* Float the link section to the right */
+.header-right {
+float: left;
+position:relative;
+padding: 2px 50px;
+padding-bottom: 0px;
+margin: 1px;
+}
+
+.header-right a{
+height: 1px;
+color:white;
+font-size: 20px;
+line-height: px;
+}
+
+.header-right a:hover
+{color: black;}
+
+.rpbutton{
+    padding: 1px 10px;
+    border-radius:10px;
+    border: none;
+    margin:30px 20px 50px 30px;
+    box-sizing: border-box;
+     min-width: 90%;
+     height:300px;
+    cursor: pointer;
+    display: inline-block;
+    text-align:center;
+	background-color:lightgreen;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;}
+
+.rpbutton h2
+{background-color:;
+color:white;
+font-family: cursive;
+margin:50px;
+font-size: 270%;}
+
+.rpbutton p
+{font-size:20px;
+  font-family:cursive;
+  color: white;
+}
+
+.rpb:hover .rpbutton p
+{cursor:pointer;
+  text-decoration:none;
+color: black;}
+
+.rpb a
+{text-decoration:none;
+display:block;
+color: black;}
+
+
+.rpb:hover .rpbutton h2
+{cursor:pointer;
+  text-decoration:none;
+color: black;}
+
+.rpb:active .rpbutton
+{cursor:pointer;
+	color:black;
+	background-color:white}
+
+footer 
+  {background-color: #292b3b;
+  color:#fff; 
+  font-family: monospace;
+  min-width:90%;
+  margin: 23px 0px 0px 0px;
+  text-align:center;
+  font-size: 150%;
+position: absolute;
+    height:auto;
+    width: 100vw;
+    padding-top: 10px;
+    text-decoration: none;}
+
+.footer-ctn{ display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    text-align: center;}
+
+.footer-ctn > h3 {font-size: 2.1rem;
+
+    font-weight: 500;
+
+    text-transform: capitalize;
+
+    line-height: 2rem;
+    }
+
+.footer-ctn p{max-width: 400px;
+    margin: 10px auto;
+    line-height: 18px;
+    font-size: 14px;
+    color: #cacdd2;}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;}
+
+.socials li{
+    margin: 0 10px;}
+
+.socials a{
+    text-decoration: none;
+
+    color: #fff;
+
+    border: 1.1px solid white;
+
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
+
+.socials a i{
+
+    font-size: 1.1rem;
+
+    width: 20px;
+
+    transition: color .4s ease;
+
+}
+
+
+
+.socials a:hover i{
+
+    color: aqua;
+
+}
+.footer-bottom{
+
+    background: #000;
+
+    width: 100vw;
+
+    padding: 10px;
+
+    padding-bottom: 9px;
+
+    text-align: center;}
+.footer-bottom p{
+
+   float: left;
+
+   font-size: 14px;
+
+   word-spacing: 2px;
+
+   text-transform: capitalize;
+
+}
+
+.footer-bottom p a{
+
+  color:#44bae8;
+
+  font-size: 16px;
+
+  text-decoration: none;
+
+}
+
+.footer-bottom span{
+
+    text-transform: uppercase;
+
+    opacity: .4;
+
+    font-weight: 200;
+
+}
+
+/* css settings for pv veiw */
+@media only screen and (min-width: 1000px)
+
+
+
+.rpbutton h2{
+color:white;
+font-family: cursive;
+margin:50px;
+font-size: 70%;}
+
+
+
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float:left;
+    display: block;
+    text-align: left;}
+
