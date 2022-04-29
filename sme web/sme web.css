@@ -223,7 +223,7 @@ position: absolute;
 }
 
 /* css settings for pv veiw */
-@media only screen and (min-width: 1000px)
+@media only screen and (min-width: 1000px){}
 
 
 
@@ -242,4 +242,4 @@ font-size: 70%;}
     float:left;
     display: block;
     text-align: left;}
-
+}
