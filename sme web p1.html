@@ -11,11 +11,34 @@
 
 <body>
 	
-
+<div class="head">
 <img src="images.png">
+<div class="dropdown">
+
+  <button class="dropbtn">
+<div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+</button>
+  <script>
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+</script>
+  <div class="dropdown-content">
+    <a href="sme web.html">Home</a>
+    <a href="sme web p1.html">Register</a>
+    <a href="sme web p2.html">Brand</a>
+    <a href="sme web p3.html">About</a>
+  </div>
+</div>
+</div>
+
 	<div class="header">
   <div class="header-right">
-    <a class="active" href="Index.html">Home</a>
+    <a class="active" href="sme web.html">Home</a>
 <a href="sme web p1.html">Register</a>
     <a href="sme web p2.html">Brand</a>
     <a href="sme web p3.html">About</a>
