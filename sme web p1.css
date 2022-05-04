@@ -1,0 +1,234 @@
+*{font-family: sans-serif   ;
+margin:0px ;
+padding:0px;
+box-sizing: border-box;}
+
+
+
+img{width: 400px;
+  height:210px;
+padding-left: 30px;}
+
+.header {font-family: cursive;
+border-radius:3px;
+color: white;
+overflow: hidden;
+background-color:lightgreen;
+padding: 20px 20px;
+margin: 0px ;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+
+.header a {
+  float: left;
+  text-align: center;
+  padding: 10px 9px 10px 15px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 0px;
+  border-radius: 4px;}
+
+.header-right {
+float: left;
+position:relative;
+padding: 2px 40s0px;
+margin: 1px;
+}
+
+.header-right a{
+height: 1px;
+color:white;
+font-size: 20px;
+line-height: px;
+}
+
+.header-right a:hover
+{color: black;}
+
+
+.qb{text-align:center;
+    height: 200px;
+border-radius:9px;
+margin:20px 0px 20px 0px;
+background-color:lightgreen;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+
+.qb > h2{padding: 30px 0px 10px 0px;}
+
+.form{padding-top}
+
+#qb{
+    height: 600px;
+position:relative;
+text-align:center;
+border-radius:9px;
+margin:20px 0px 20px 0px;
+background-color:lightgreen;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+
+.input{width: 38%;
+    height: 50px;}
+
+
+#qb h2{text-align:center;
+color:black;
+padding:30px 0px 0px 0px ;
+margin:50px 50px 0px 50px;
+}
+
+#qb h3{}
+
+
+#form{
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 30px;}
+
+input{width: 83%;
+    padding: 13px 10px;
+    margin: 5px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;}
+
+.label{
+    width: 290px;
+    line-height: 1;
+    text-align: left;
+    padding: 1px 24px 0px 57px;
+    text-transform: capitalize;
+    font-size: 13px;}
+
+button{position: relative;
+color: white;
+height:50px;
+width:100px;
+margin:10px auto;
+padding: 15px 20px;
+font-size: 15px;
+border-radius: 23px;
+text-transform: uppercase;
+border: none;
+background-color: rgb(10, 100, 218);}
+
+footer 
+  {background-color: #292b3b;
+  color:#fff; 
+  font-family: monospace;
+  min-width:100%;
+  margin: 23px 0px 0px;
+  text-align:center;
+  font-size: 120%;
+position: absolute;
+    height: auto;
+    width: 100vw;
+    padding-top: 10px;
+    text-decoration: none;}
+
+.footer-ctn{ display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;}
+
+.footer-ctn > h3 {font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 2rem;
+    }
+
+.footer-ctn p{max-width: 500px;
+
+    margin: 10px auto;
+
+    line-height: 28px;
+
+    font-size: 14px;
+
+    color: #cacdd2;}
+
+
+.socials{
+    list-style: none;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin: 1rem 0 3rem 0;
+}
+
+
+.socials li
+{margin: 0 10px;}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;}
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+transition: color .4s ease;}
+
+.socials a:hover i
+{color: aqua;}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px: ;
+    padding-bottom: 10px;
+text-align: center;}
+
+.footer-bottom p{
+   float: left;
+   font-size: 14px;
+   word-spacing: 2px;
+   text-transform: capitalize;
+}
+
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+
+
+/* css settings for pv veiw */
+@media only screen and (min-width: 900px){
+body {background-color: }
+
+
+.rpbutton h2
+{font-family: cursive;
+margin:50px;
+font-size: 170%;}
+
+
+.footer 
+{background-color: #292b3b;
+color:#ffff; 
+font-family: monospace;
+min-width:100%;
+padding-top: 10px;
+text-align:center;
+font-size: 150%;
+}
+
+class*"col"{width: 100%}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px)
