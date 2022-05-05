@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 <title>Smesolutions.com</title>
-<meta name="veiwport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="sme web.css">
 </head>
 
@@ -12,16 +12,40 @@
 <body>
 <div id="body">
 
+<div class="head">
 <img src="images.png">
-		<div class="header">
-	
+<div class="dropdown">
+
+  <button class="dropbtn">
+<div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+</button>
+  <script>
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+</script>
+  <div class="dropdown-content">
+    <a href="sme web.html">Home</a>
+    <a href="sme web p1.html">Register</a>
+    <a href="sme web p2.html">Brand</a>
+    <a href="sme web p3.html">About</a>
+  </div>
+</div>
+</div>
+
+	<div class="header">
   <div class="header-right">
     <a class="active" href="sme web.html">Home</a>
 <a href="sme web p1.html">Register</a>
     <a href="sme web p2.html">Brand</a>
-    <a href="sme web p.html">About</a>
+    <a href="sme web p3.html">About</a>
   </div>
 </div>
+
 
 
 	<div class="rpb">		
@@ -37,7 +61,7 @@
  
 	<div class="rpb">		
 	<button class="rpbutton"><a href="sme web p3.html"><h2>MARKET YOUR COMPANY</h2></a><p>
-	Market your product through our expert sales options</p></button>
+	Market your product through our marketing sales options</p></button>
 </div> 
 </a>
 
