@@ -234,7 +234,7 @@ class*"col"{width: 100%}
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px){
 
-    img{width: 350px;
+    img{width: 280px;
 padding-left:0px;
   height:230px;
  float:left;
