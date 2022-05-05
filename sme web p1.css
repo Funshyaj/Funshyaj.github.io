@@ -3,10 +3,7 @@ margin:0px ;
 padding:0px;
 box-sizing: border-box;}
 
-#body{
-    position: relative;
-    height: 100vmax;
-  }
+
 
 img{width: 400px;
   height:210px;
@@ -124,7 +121,6 @@ footer
   text-align:center;
   font-size: 120%;
 position: absolute;
-bottom: 0;
     height: auto;
     width: 100%;
     padding-top: 10px;
