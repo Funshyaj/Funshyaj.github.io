@@ -15,30 +15,53 @@
 
 <body>
 	<div id="body">
+
 <div class="head">
 <img src="images.png">
-<div class="dropdown">
 
-  <button class="dropbtn">
-<div class="container" onclick="myFunction(this)">
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"><div class="container" onclick="myFunction(this)">
   <div class="bar1"></div>
   <div class="bar2"></div>
   <div class="bar3"></div>
 </div>
 </button>
-  <script>
-function myFunction(x) {
-  x.classList.toggle("change");
-}
-</script>
-  <div class="dropdown-content">
-    <a href="sme web.html">Home</a>
-    <a href="sme web p1.html">Register</a>
+   <div id="myDropdown" class="dropdown-content">
+        <a class="active" href="sme web.html">Home</a>
+<a href="sme web p1.html">Register</a>
     <a href="sme web p2.html">Brand</a>
-    <a href="sme web p3.html">About</a>
+    <a href="sme web p.html">About</a>
+      <a href="Sign-up.html">Sign-up</a>
+<a href="Sign-in.html">Login</a>
   </div>
 </div>
-</div>
+
+
+
+<script>
+function myFunction(x) {
+  x.classList.toggle("change");}
+
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 
 	<div class="header">
   <div class="header-right">
@@ -46,6 +69,8 @@ function myFunction(x) {
 <a href="sme web p1.html">Register</a>
     <a href="sme web p2.html">Brand</a>
     <a href="sme web p3.html">About</a>
+<a href="Sign-up.html">Sign-up</a>
+<a href="Sign-in.html">Login</a>
   </div>
 </div>
 
@@ -95,17 +120,11 @@ function myFunction(x) {
   
 <h3>Contact us</h3>
  <ul class="socials">
-
-    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-
-    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-
-    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-
-    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-
-    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-
+       <li><a href="www.facebook.com/funshyajayi"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="www.twitter.com/funshyaj"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="www.instagram.com/one_fine_boy"><i class="fa fa-instagram"></i></a></li>
+    <li><a href="www.linkedin.com/in/funsho-ajayi-a36087229"><i class="fa fa-linkedin-square"></i></a></li>
+ 
  </ul>
 
 <div class="footer-bottom">
