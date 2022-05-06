@@ -4,11 +4,13 @@
     box-sizing: border-box;}
 
 img{width: 400px;
+    margin-left: 290px;
     height:210px;
   padding-left: 30px;}
 
+h3{padding-top:20px ;}
 
-
+.head{height: 180px;}
 
 #qb{
     height: 600px;
@@ -171,12 +173,15 @@ text-align: center;}
   @media screen and (max-width: 500px){
 
     img{width: 280px;
+        margin-left:35px;
 padding-left:0px;
   height:230px;
  float:left;
 position: relative;
 }
-.head{height: 290px;}
+      
+.head{height: 180px;}
+      
 #form{
     width: 350px;
     padding: 15px;
