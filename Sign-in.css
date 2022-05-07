@@ -5,13 +5,14 @@
 
 img{width: 400px;
     height:210px;
+    margin-left: 290px;
   padding-left: 30px;}
 
 
 
 
 #qb{
-    height: 300px;
+    height: 370px;
 position:relative;
 text-align:center;
 border-radius:9px;
@@ -23,7 +24,7 @@ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
     height: 50px;}
 
 
-#qb h2{text-align:center;
+h2{text-align:center;
 color:black;
 padding:30px 0px 0px 0px ;
 margin:50px 50px 0px 50px;
@@ -52,10 +53,12 @@ input{width: 83%;
     text-transform: capitalize;
     font-size: 13px;}
 
+a:{text-decoration: none;}
+
 button{position: relative;
 color: white;
 height:50px;
-width:100px;
+width:115px;
 margin:10px auto;
 padding: 15px 20px;
 font-size: 15px;
@@ -171,12 +174,14 @@ text-align: center;}
   @media screen and (max-width: 500px){
 
     img{width: 280px;
+margin-left:35px;
 padding-left:0px;
   height:230px;
  float:left;
 position: relative;
 }
-.head{height: 290px;}
+.head{height: 180px;}
+
 #form{
     width: 350px;
     padding: 15px;
